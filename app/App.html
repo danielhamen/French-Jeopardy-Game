@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Jeopardy</title>
+
+        <link rel="stylesheet" href="./static/css/index.css" />
+
+        <script type="module" src="./static/js/index.js"></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div id="background"></div>
+        <dialog id="question">
+            <span id="question-points">
+                <span id="category"> </span> pour
+                <span id="pts"> </span>
+            </span>
+            <h3 id="question-title"></h3>
+            <span id="question-answer"></span>
+        </dialog>
+        <main id="game">
+            <table id="categories">
+                <thead>
+                    <tr></tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </main>
+    </body>
+</html>
